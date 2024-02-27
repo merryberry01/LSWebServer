@@ -2,6 +2,9 @@
 ## 과제 설명
 ls 명령어를 구현하고 그 결과를 웹으로 제공하는 서버를 구현한다.
 
+### Build
+gcc -o ls_web_server ls_web_server.c -lpthread
+
 ### httpd.conf
 서버의 동작을 설정하는 configuration file이다
 - **MaxChilds**: 최대 자식 프로세스 수
